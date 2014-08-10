@@ -1,3 +1,7 @@
+Introduction
+===========
+I am playing with chef now and the readme file is not written by me but by opscode. You may run this by typing in "knife ec2 server create -I 'ami_id' -f 'instance_type' -S 'key_pair_name' -i 'path_to_key_pair_file' --ssh-user 'user' --region us-west-2 -Z us-west-2a'". Do NOT add single quotes when typing in the values, its to be able to read it easier.
+
 Overview
 ========
 
