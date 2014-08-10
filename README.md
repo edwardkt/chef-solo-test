@@ -1,6 +1,6 @@
 Introduction
 ===========
-I am playing with chef now and the readme file is not written by me but by opscode. You may run this by typing in 'knife ec2 server create -I 'ami_id' -f 'instance_type' --region us-west-2 -Z us-west-2a'. This command creates an AWS EC2 instance. Do NOT add single quotes when typing in the values, its to be able to read it easier.
+I am using this repo to learn chef as well as AWS. The readme file is not written by me but by opscode. I have successfully used chef to have it create AWS EC2 instances through the knife command. You may run this by typing in 'knife ec2 server create -I 'ami_id' -f 'instance_type' --region us-west-2 -Z us-west-2a'. This command creates an AWS EC2 instance. Do NOT add single quotes when typing in the values, its to be able to read it easier. PLEASE KEEP IN MIND THAT THIS IS CHEF SOLO SO WHEN RUNNING THIS COMMAND, IT WILL LOOK FOR THE VALIDATION.PEM FILE WHICH I DO NOT HAVE. HOWEVER THE FUNCTIONALITY STILL WORKS IN THE END!
 
 Overview
 ========
